@@ -1,20 +1,73 @@
-# Customer Churn Prediction App
+# Customer Churn Prediction App 📉🧠
+
+---
 
 ## Demo App
 
 [![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://customer-churn-ml.streamlit.app/)
 
-## GitHub Codespaces
+This is a Machine Learning-powered web app built with **Streamlit** that predicts whether a customer will **churn** based on various input features.
 
-[![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/streamlit/app-starter-kit?quickstart=1)
+It leverages:
+* 🧪 Trained ML models such as **Logistic Regression**, **Decision Tree**, and **Random Forest**.
+* 📊 Data preprocessing and encoding techniques.
+* 🧾 An intuitive input form for real-time predictions.
+* 🗂 Session-based history tracking for past predictions.
 
-## Section Heading
+---
 
-This is filler text, please replace this with text for this section.
+## 📌 Features
 
-## Further Reading
+* **Manual Input**: Enter customer information manually to get predictions.
+* **Churn Prediction & Probability**: Get a churn prediction along with the model's confidence score.
+* **Model Selection**: Choose between different ML models for predictions.
+* **Prediction History**: View a history of your predictions within the current session.
+* **Sample Dataset**: Utilizes the `WA_Fn-UseC_-Telco-Customer-Churn.csv` dataset for training and demonstration.
 
-This is filler text, please replace this with a explanatory text about further relevant resources for this repo
-- Resource 1
-- Resource 2
-- Resource 3
+---
+
+## 💻 Technologies Used
+
+* **Python** 🐍
+* **Streamlit** 🚀
+* **Pandas & NumPy** 📊
+* **Scikit-learn** 🤖
+
+---
+
+## ⚙️ How to Run Locally
+
+Follow these steps to set up and run the application on your local machine:
+
+1.  **Clone the repository:**
+    ```bash
+    git clone [https://github.com/vishalprajapati2870/Customer-churn-model.git](https://github.com/vishalprajapati2870/Customer-churn-model.git)
+    cd Customer-churn-model
+    ```
+
+2.  **Create a virtual environment (recommended):**
+    ```bash
+    python -m venv venv
+    ```
+    * **On Windows:**
+        ```bash
+        venv\Scripts\activate
+        ```
+    * **On macOS/Linux:**
+        ```bash
+        source venv/bin/activate
+        ```
+
+3.  **Install dependencies:**
+    ```bash
+    pip install -r requirements.txt
+    ```
+
+4.  **Run the Streamlit app:**
+    ```bash
+    streamlit run Customer_chrun.py
+    ```
+
+---
+
+Made with ❤️ by Vishal Prajapati
