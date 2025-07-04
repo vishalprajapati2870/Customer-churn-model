@@ -1,13 +1,8 @@
-# 📦 Streamlit App Starter Kit 
-```
-⬆️ (Replace above with your app's name)
-```
-
-Description of the app ...
+# Customer Churn Prediction App
 
 ## Demo App
 
-[![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://app-starter-kit.streamlit.app/)
+[![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://customer-chrun.streamlit.app/)
 
 ## GitHub Codespaces
 
